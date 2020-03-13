@@ -10,13 +10,15 @@
 
 
 # Description
+
 - Hasher is a Hash Cracker that has supported more than 7 types of hashes.
 
 # Features
-- [x] **Auto detect hash.**
-- [x] **Supports Windows and Linux platforms.**
-- [x] **Fast decrypt.**
-- [x] **List of supported hashes:**
+
+- [x] Auto detect hash.
+- [x] Supports Windows and Linux platforms.
+- [x] Fast decrypt.
+- [x] List of supported hashes:
 ```
 - md4
 - md5
@@ -35,7 +37,10 @@
 - lmhash
 - ntlm hash
 ``` 
+
 # Installation
+
+> ***Open the terminal and type following commands.***
 ```
 $ apt update upgrade
 $ apt install python2 git
@@ -44,6 +49,7 @@ $ cd Hasher
 $ chmod +x Hasher.py
 $ python2 Hasher.py
 ```
+
 # Screenshot
 
 [<img src="https://raw.githubusercontent.com/TheDarkRoot/PNGStore/master/Personal/Screenshots/Hasher%2001.png" width=175>](https://raw.githubusercontent.com/TheDarkRoot/PNGStore/master/Personal/Screenshots/Hasher%2001.png)
