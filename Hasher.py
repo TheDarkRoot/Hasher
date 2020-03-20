@@ -59,18 +59,18 @@ def banner():
 def info():
 
 	print (GG+"\n 0{======================"+WW+" INFO "+GG+"=======================}0")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Name     "+CC+":"+WW+" Hasher"+GG+"                               |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Code     "+CC+":"+WW+" Python2"+GG+"                              |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Version  "+CC+":"+WW+" v1.0.0 (Alpha)"+GG+"                       |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Author   "+CC+":"+WW+" TheDarkRoot"+GG+"                          |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Email    "+CC+":"+WW+" 7H3D4RKR007@gmail.com"+GG+"                |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Github   "+CC+":"+WW+" https://github.com/TheDarkRoot"+GG+"       |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Telegram "+CC+":"+WW+" @TDarkRoot (https://t.me/TDarkRoot)"+GG+"  |")
-	print (GG+" |"+BB+" ["+RR+"="+BB+"] "+WW+"Team     "+CC+":"+WW+" TurkHackTeam (www.turkhackteam.org)"+GG+"  |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Name     "+CC+":"+WW+" Hasher"+GG+"                               |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Code     "+CC+":"+WW+" Python2"+GG+"                              |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Version  "+CC+":"+WW+" v1.0.0 (Alpha)"+GG+"                       |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Author   "+CC+":"+WW+" TheDarkRoot"+GG+"                          |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Email    "+CC+":"+WW+" 7H3D4RKR007@gmail.com"+GG+"                |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Github   "+CC+":"+WW+" https://github.com/TheDarkRoot"+GG+"       |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Telegram "+CC+":"+WW+" @TDarkRoot (https://t.me/TDarkRoot)"+GG+"  |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Team     "+CC+":"+WW+" TurkHackTeam (www.turkhackteam.org)"+GG+"  |")
 	print (GG+" 0{===================================================}0\n")
-	print (BB+" ["+RR+"="+BB+"] "+WW+"python2 "+sys.argv[0]+" -u")
-	print (BB+"\n ["+RR+"="+BB+"] "+WW+"To Update Wordlist")
-	print (BB+"\n ["+RR+"="+BB+"] "+WW+"List of supported hashes:")
+	print (YY+" "+YY+"["+CC+"="+YY+"] "+WW+"python2 "+sys.argv[0]+" -u")
+	print (YY+"\n "+YY+"["+CC+"="+YY+"] "+WW+"To Update Wordlist")
+	print (YY+"\n "+YY+"["+CC+"="+YY+"] "+WW+"List of supported hashes:")
 	print (YY+"\n                          ["+WW+"01"+YY+"] "+CC+"md4")
 	print (YY+"                          ["+WW+"02"+YY+"] "+CC+"md5")
 	print (YY+"                          ["+WW+"03"+YY+"] "+CC+"sha1")
@@ -90,7 +90,7 @@ def info():
 
 def Update():
 	if sys.platform == "linux" or sys.platform == "linux2":
-		print (YY+"[}>"+WW+" Update wordlist.\n")
+		print (YY+"["+WW+"~"+YY+"}->"+GG+" Update wordlist.\n")
 		time.sleep(1)
 
 		print (YY+"["+WW+"="+YY+"] "+CC+"Remove old wordlist.")
