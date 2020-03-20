@@ -90,24 +90,24 @@ def info():
 
 def Update():
 	if sys.platform == "linux" or sys.platform == "linux2":
-		print (BB+" 0={"+WW+" Update wordlist. "+BB+"}=0\n")
+		print (YY+"[}>"+WW+" Update wordlist.\n")
 		time.sleep(1)
 
-		print (BB+"["+WW+"="+BB+"] "+GG+"Remove old wordlist.")
+		print (YY+"["+WW+"="+YY+"] "+CC+"Remove old wordlist.")
 		os.system("rm -rf Wordlist.txt")
 		time.sleep(1)
 
-		print (BB+"["+WW+"="+BB+"] "+GG+"Downloading new wordlist.")
+		print (YY+"["+WW+"="+YY+"] "+CC+"Downloading new wordlist.")
 		time.sleep(1)
 
-		print (RR+"["+WW+"*"+RR+"] "+RR+"Curl Started...\n"+W)
+		print (YY+"["+WW+"="+YY+"] "+CC+"Curl Started...\n"+W)
 
 		os.system("curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt")
 
-		print (RR+"\n["+WW+"*"+RR+"] "+GG+"Download finish.\n"+W)
+		print (YY+"\n["+GG+"*"+YY+"] "+GG+"Download finish.\n"+W)
 		sys.exit()
 	else:
-		print ("Sorry, word list update feature is only available on linux platform.\n")
+		print (RR+"Sorry, word list update feature is only available on linux platform.\n")
 		sys.exit()
 
 
