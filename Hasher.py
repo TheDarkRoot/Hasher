@@ -137,7 +137,7 @@ except ImportError:
 def hash():
 	banner()
 
-	hash_str = raw_input(BB+"["+WW+"?"+BB+"]"+GG+" Hash: "+W)
+	hash_str = raw_input(P+"["+WW+"?"+P+"]"+GG+" Hash: "+W)
 #	time.sleep(0.5)
 	print (BB+"["+RR+"="+BB+"] "+GG+"Cek Hash Type...")
 #	time.sleep(1)
