@@ -24,7 +24,7 @@ if sys.platform == "linux" or sys.platform == "linux2":
 	M = "\033[35;1m"  # Magenta
 
 	# Random Color
-	rand = (BB,YY,GG,WW,RR,CC)
+	rand = (BB,YY,GG,RR,CC)
 	P = random.choice(rand)
 
 elif sys.platform == "win32":
@@ -137,7 +137,7 @@ except ImportError:
 def hash():
 	banner()
 
-	hash_str = raw_input(P+"["+WW+"?"+P+"]"+GG+" Hash: "+W)
+	hash_str = raw_input(YY+"["+WW+"?"+YY+"]"+GG+" Hash: "+W)
 #	time.sleep(0.5)
 	print (BB+"["+RR+"="+BB+"] "+GG+"Cek Hash Type...")
 #	time.sleep(1)
