@@ -48,7 +48,7 @@ The author of this project is not responsible for any possible harm caused by th
 > ***Open the terminal and type following commands.***
 ```
 $ apt update upgrade
-$ apt install python2 git
+$ apt install python2
 $ git clone https://github.com/TheDarkRoot/Hasher.git
 $ cd Hasher
 $ chmod +x Hasher.py
