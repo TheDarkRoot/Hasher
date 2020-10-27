@@ -81,7 +81,7 @@ def info():
 
 def Update():
 	if sys.platform == "linux" or sys.platform == "linux2":
-		print (YY+"["+WW+"~"+YY+"}->"+GG+" Update wordlist.\n")
+		print (YY+"\n["+WW+"~"+YY+"}->"+GG+" Update wordlist.\n")
 		time.sleep(1)
 
 		print (YY+"["+WW+"="+YY+"] "+CC+"Remove old wordlist.")
