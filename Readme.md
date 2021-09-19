@@ -46,14 +46,12 @@ The author of this project is not responsible for any possible harm caused by th
 # Installation
 
 > ***Open the terminal and type following commands.***
-```
-$ pkg install git
-$ pkg install python2
-$ git clone https://github.com/TheDarkRoot/Hasher.git
-$ cd Hasher
-$ chmod +x Hasher.py
-$ python2 Hasher.py
-```
+$ ```pkg install git```
+$ ```pkg install python2```
+$ ```git clone https://github.com/TheDarkRoot/Hasher.git```
+$ ```cd Hasher```
+$ ```chmod +x Hasher.py```
+$ ```python2 Hasher.py```
 
 # Screenshot
 
